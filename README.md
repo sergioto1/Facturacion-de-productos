@@ -9,13 +9,22 @@ Se contratará un programador para que imprima el valor del pago (Valor * Cantid
 categoría y los descuentos por categoría. También se debe imprimir la Venta total(Venta
 Total – Descuentos) y la mayor venta.
 
-#Ejemplo:
-#Entrada
-#Categoria = ["Juguete","Adornos","Lenceria","Zapatos"]
-Valor = [2000,1000,500,5000]
-Cantidad = [2,11,2,11]
-print(Ventas(Categoria,Valor,Cantidad))
-Salida
-Factura = [2000, 22000, 1000, 55000]
-Descuento = [0.0, 2200.0, 0.0, 5500.0]
-{'Venta Total': 72300, 'Mayor venta': 55000}
+-Ejemplo:
+
+-Entrada
+
+-Categoria = ["Juguete","Adornos","Lenceria","Zapatos"]
+
+-Valor = [2000,1000,500,5000]
+
+-Cantidad = [2,11,2,11]
+
+-print(Ventas(Categoria,Valor,Cantidad))
+
+-Salida
+
+-Factura = [2000, 22000, 1000, 55000]
+
+-Descuento = [0.0, 2200.0, 0.0, 5500.0]
+
+-{'Venta Total': 72300, 'Mayor venta': 55000}

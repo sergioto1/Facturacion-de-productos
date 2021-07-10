@@ -27,3 +27,9 @@ def Ventas(Categoria,Valor,Cantidad) :
     VentasTotales["Venta Total"] = int(sum - sum1)
     VentasTotales["Mayor venta"] = May
     return(VentasTotales)
+
+# Prueba
+Categoria = ["Juguete","Adornos","Lenceria","Zapatos"]
+Valor = [1000,2000,500,5000]
+Cantidad = [12,11,12,11]
+print(Ventas(Categoria,Valor,Cantidad))

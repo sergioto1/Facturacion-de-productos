@@ -13,18 +13,18 @@ Total – Descuentos) y la mayor venta.
 
 -Entrada
 
--Categoria = ["Juguete","Adornos","Lenceria","Zapatos"]
+Categoria = ["Juguete","Adornos","Lenceria","Zapatos"]
 
--Valor = [2000,1000,500,5000]
+Valor = [2000,1000,500,5000]
 
--Cantidad = [2,11,2,11]
+Cantidad = [2,11,2,11]
 
--print(Ventas(Categoria,Valor,Cantidad))
+print(Ventas(Categoria,Valor,Cantidad))
 
 -Salida
 
--Factura = [2000, 22000, 1000, 55000]
+Factura = [2000, 22000, 1000, 55000]
 
--Descuento = [0.0, 2200.0, 0.0, 5500.0]
+Descuento = [0.0, 2200.0, 0.0, 5500.0]
 
--{'Venta Total': 72300, 'Mayor venta': 55000}
+{'Venta Total': 72300, 'Mayor venta': 55000}
